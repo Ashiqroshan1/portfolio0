@@ -474,7 +474,7 @@ span {
 
 @media screen and (max-width: 480px) {
     .Skills {
-        height: 60vh;
+        height: 70vh;
         padding: 20px;
     }
 
@@ -508,7 +508,7 @@ span {
         color: rgb(85, 85, 85);
     }
 }
-@media screen and (min-width: 410px) {
+@media screen and (max-width: 479px) {
     .Skills {
         height: 90%;
         padding: 20px;
