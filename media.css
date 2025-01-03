@@ -1006,6 +1006,7 @@ footer p {
     }
     footer p {
         font-size: 13px;
+        text-align: center;
         
     }
     
@@ -1033,12 +1034,20 @@ footer p {
     }
 
     footer nav .nav-links-container ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        
     }
 
     footer nav .nav-links-container ul li {
         margin: 1px;
+        font-size:8px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        text-align: center;
+        
     }
     
 }
