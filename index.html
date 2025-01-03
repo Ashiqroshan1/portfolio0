@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 
 </head>
 <body>
@@ -12,14 +13,35 @@
         <div class="nav-container">
             <div><img src="./assets/logo2.png" class="logo"/></div>
             <div class="menu-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">AboutMe</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">AboutMe</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </div>
         </div>
     </nav>
+
+    <nav id="hamburger-nav">
+      <div class="nav-container">
+          <div><img src="./assets/logo2.png" class="logo"/></div>
+          <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-links">
+              <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+              <li><a href="#About" onclick="toggleMenu()">AboutMe</a></li>
+              <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#" onclick="toggleMenu()">Skills</a></li>
+              <li><a href="#" onclick="toggleMenu()">Contact Me</a></li>
+          </div>
+      </div>
+  </nav>
+
+
+  
     
     <div id="Home">
         <div class="Home">
@@ -167,7 +189,7 @@
     </div>
 
     <div id="projects">
-        <div class="projects">
+      <div class="projects">
             <p >Browse My Recent</p>
             <h1 >Projects</h1>
       <div class="experience-details-container">
@@ -219,7 +241,7 @@
                 Live Demo
               </button>
             </div>
-          </div>
+            </div>
           <div class="details-containerr color-container">
             <div class="article-container">
               <img
@@ -243,7 +265,7 @@
                 Live Demo
               </button>
             </div>
-          </div>
+            </div>
           <div class="details-containerr color-container">
             <div class="article-container">
               <img
@@ -268,11 +290,10 @@
               </button>
             </div>
           </div>
-          
-          
         </div>
-       
-        </div>
+
+        
+        
       </div>
     </div>
 
@@ -299,20 +320,24 @@
             </div>
             </div>
             <footer>
-                <nav>
-                    <div class="nav-links-container">
-                      <ul class="menu-links" id="font">
-                        <li><a href="about.html">Home</a></li>
-                        <li><a href="#experience">About Me</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact" onclick="display('skills')">Skills</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                  <p>Copyright &#169; 2025 AshiqRoshanTadikala. All Rights Reserved.</p>
-            </footer>
+              <nav>
+                  <div class="nav-links-container">
+                    <ul class="menu-links" id="font">
+                      <li><a href="#Home">Home</a></li>
+                      <li><a href="#About">About Me</a></li>
+                      <li><a href="#projects">Projects</a></li>
+                      <li><a href="#skills" >Skills</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <p>Copyright &#169; 2025 AshiqRoshanTadikala. All Rights Reserved.</p>
+          </footer>
+            
         </div>
+        
     </div>
-    
+
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -5,6 +5,7 @@
     margin:0;
     padding:0px;
     box-sizing: border-box;
+    /*border:1px solid black;*/
    
 }
 
@@ -113,6 +114,13 @@ button:hover{
     font-size:30px;
 }
 
+
+
+
+/*-----------------------*/
+
+
+/*--------------------------*/
 /*about-me*/
 
 .AboutMe{
@@ -176,7 +184,8 @@ span{
     height:100vh;
     background: linear-gradient(90deg, rgba(255,254,254,1) 0%, rgba(157,159,160,1) 100%);
     
-    padding:150px;
+    padding-top:10%;
+    margin-bottom: 0px;
 }
 
 
@@ -227,7 +236,7 @@ span{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    width:50%;
+
   }
   
 article {
@@ -249,7 +258,7 @@ article .iconn {
 .contact{
     height:100vh;
     background: linear-gradient(90deg, rgba(255,254,254,1) 0%, rgba(157,159,160,1) 100%);
-    padding:250px;
+    padding:100px;
 
 
 }
@@ -457,6 +466,7 @@ footer p {
 display: flex;
 justify-content: center;
 flex-direction: column;
+flex:wrap;
 }
 
 .about-containers{
