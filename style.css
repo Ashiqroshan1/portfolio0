@@ -182,21 +182,25 @@ span{
 /*---------skills page----------*/
 
 
-.Skills{
+
+.Skillss{
     height:100vh;
     background: linear-gradient(90deg, rgba(255,254,254,1) 0%, rgba(157,159,160,1) 100%);
-    padding-bottom:10%;
+    padding-top: 5%;
+    padding-bottom:20%;
+    margin:auto;
+
 }
 
 
 
-.Skills h5{
+.Skillss h5{
     text-align: center;
-    font-weight: 100;
+    font-weight: 100px;
     font-size: 20px;
     
 }
-.Skills h1{
+.Skillss h1{
     font-weight: bolder;
     font-size: 50px;
     text-align: center;
@@ -209,6 +213,7 @@ span{
 }
 .skill-container {
     display: flex;
+    margin-bottom: 20px;
     justify-content: center;
     flex-direction: column;
 }
