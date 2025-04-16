@@ -509,6 +509,43 @@ span {
     }
 }
 
+@media screen and (min-width: 400px) {
+    .Skills {
+        height: 60vh;
+        padding: 20px;
+    }
+
+    .abt-container {
+        gap: 0.2rem;
+        margin-bottom: 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    .detailed-container {
+        width: 95%;
+    }
+
+    .skill-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .skill-icon img {
+        height: 10px;
+    }
+
+    .skill-icon h3 {
+        font-size: 0.4rem;
+        margin-bottom: 0.05rem;
+    }
+
+    .skill-icon p {
+        font-size: 0.3rem;
+        color: rgb(85, 85, 85);
+    }
+}
+
 
 /* Existing Projects Section */
 
