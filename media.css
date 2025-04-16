@@ -474,7 +474,43 @@ span {
 
 @media screen and (max-width: 480px) {
     .Skills {
-        height: 60vh;
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .abt-container {
+        gap: 0.2rem;
+        margin-bottom: 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    .detailed-container {
+        width: 95%;
+    }
+
+    .skill-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .skill-icon img {
+        height: 10px;
+    }
+
+    .skill-icon h3 {
+        font-size: 0.4rem;
+        margin-bottom: 0.05rem;
+    }
+
+    .skill-icon p {
+        font-size: 0.3rem;
+        color: rgb(85, 85, 85);
+    }
+}
+@media screen and (max-width: 479px) {
+    .Skills {
+        height: 90%;
         padding: 20px;
     }
 
@@ -1007,6 +1043,7 @@ footer p {
     }
     footer p {
         font-size: 13px;
+        text-align: center;
         
     }
     
@@ -1034,12 +1071,20 @@ footer p {
     }
 
     footer nav .nav-links-container ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        
     }
 
     footer nav .nav-links-container ul li {
         margin: 1px;
+        font-size:8px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        text-align: center;
+        
     }
     
 }
